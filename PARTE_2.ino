@@ -35,27 +35,27 @@ void setup() {
   pinMode(boton1, INPUT_PULLUP); //es la configuración del boton  
   digitalWrite(boton1, HIGH);
   sens00r.begin();
-  accion_boton.start();
-  accion_temper.start();
+  accion_boton.start(); //inicia el ticker
+  accion_temper.start(); //inicia el ticker
 }
 
 void loop() {
-   accion_boton.update();
-  accion_temper.update();
+   accion_boton.update(); //actualiza el valor de ticker
+  accion_temper.update(); //actualiza el valor de ticker
 }
 
  void tempe(void){
  sens00r.requestTemperatures();
- float temperatura= sens00r.getTempCByIndex(0);
- Serial.println(temperatura);
+ float temperatura= sens00r.getTempCByIndex(0);  //consigue el valor de temperatura
+ Serial.println(temperatura); //imprime el valor en el monitor serial
 }
 
 void bot00n(void){
   valor = digitalRead(boton1);
   if(valor==1 ){
-   Serial.println("ABIERTO") ;   
+   Serial.println("ABIERTO") ; //imprime la palabra abierto en el monitor serial  
   }
 else{
-  Serial.println("CERRADO");
+  Serial.println("CERRADO"); //imprime la palabra cerrado en el monitor serial
 }
 }
