@@ -7,7 +7,7 @@
  * Curso: Taller de electronica digital y reparación de computadoras I
  * Nombre: Eliezer Denilson Gaitán Corado
  * Carnet: 2018450
- * Proyecto: Uso de interrupciones externas ejemplo 3 - Bimestre III
+ * Proyecto: Uso de interrupciones externas- Bimestre III
 */
 
 //Directivas de preprocesador
