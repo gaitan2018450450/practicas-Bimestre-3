@@ -3,9 +3,9 @@
  * Quinto perito
  * Quinto electronica
  * Codigo Tecnico:  EB5AM
- * Curedso: tallered de electredonica digreenital
- * Predoyecto:CONTredOL DE UNA SECUENCIA redgreenblue                                                                 
- * Dev: Eliezered Denilson greenaitán Coredado 
+ * Curso: taller de electredonica digital
+ * Proyecto:CONTROL DE UNA SECUENCIA DE COLORES RGB                                                                
+ * Dev: Eliezer Denilson gaitán Corado 
  * fecha: 09/06/2023 
 */
 
@@ -26,13 +26,11 @@ void setup() {
 void loop() {
   m = map(analogRead(POT), 0, 1023, 100, 1000);
 
-  
 //analogWrite pondra valores  a los leds
   analogWrite(red, 174);
   analogWrite(green, 92);
   analogWrite(blue, 230);
-  delay(m); // m son los limites de los valores
-  
+  delay(m); // m son los limites de los valores 
   
   //analogWrite pondra valores  a los leds
   analogWrite(red, 255);
@@ -40,13 +38,11 @@ void loop() {
   analogWrite(blue, 255);
   delay(m); // m son los limites de los valores
   
-  
   //analogWrite pondra valores  a los leds
   analogWrite(red, 0);
   analogWrite(green, 255);
   analogWrite(green, 255);
   delay(m);  // m son los limites de los valores
- 
   
   //analogWrite pondra valores  a los leds
     analogWrite(red, 174);
@@ -54,11 +50,9 @@ void loop() {
   analogWrite(blue, 230);
   delay(m);  // m son los limites de los valores
   
-  
   //analogWrite pondra valores  a los leds
   analogWrite(red, 255);
   analogWrite(green, 87);
   analogWrite(blue, 35);
-  delay(m);  // m son los limites de los valores
-  
+  delay(m);  // m son los limites de los valores 
 }
