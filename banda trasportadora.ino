@@ -1,3 +1,15 @@
+/*
+ * Fundacion Kinal
+ * Centro educativo tecnico laboral Kinal
+ * Electronica
+ * Grado: Quinto
+ * Sección: A
+ * Curso: Taller de electronica digital y reparación de computadoras I
+ * Nombre: Eliezer Denilson Gaitán Corado
+ * Carnet: 2018450
+ * Proyecto: Banda transportadora- Bimestre III
+*/
+
 #include <Servo.h>
 Servo myservo;
 
