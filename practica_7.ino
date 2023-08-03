@@ -6,9 +6,9 @@
  * A
  * taller de electronica digital reparacion en computadoras 
  * javier ricardo vivar sanchez
- * Eliezer Corado 
+ * Eliezer Denilson Gaitán Corado 
  * 2019585
- * 2018
+ * 2018450
  * Practica 7
  */
 #include <LiquidCrystal_I2C.h>
